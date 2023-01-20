@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "human": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager"
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{devilsknife:1b}"
+                                }
+                            }
+                        }
+                    }
+                }
+           }
+},
+    "rewards": {
+        "experience": 1,
+        "function": "miscraft:undertale/genostart"
+    }
+}

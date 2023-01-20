@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Exotium",
+                "color": "gold"
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:vanishing_curse": 1
+              },
+              "add": true
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "name": "",
+                  "amount": 5,
+                  "operation": "addition",
+                  "id": "7a91128b-33e8-4ebb-9c38-8c08030f2146",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Xur's Specialty Item",
+                  "color": "gold"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{exotium:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 0.99,
+              "looting_multiplier": 3
+            },
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
