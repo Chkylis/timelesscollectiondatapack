@@ -1,3 +1,132 @@
+####################### Extra Expansions ################################
+
+########################################## Majora's Mask ########################################
+execute if score Installed majorainstall matches -10..-1 run scoreboard players remove Installed majorainstall 1
+execute if score Installed majorainstall matches -10 run scoreboard objectives setdisplay sidebar cycletime
+execute if score Installed majorainstall matches -10 run scoreboard objectives remove cycletime
+execute if score Installed majorainstall matches -10 run scoreboard objectives remove moonfall
+execute if score Installed majorainstall matches -10 run scoreboard objectives remove moonfallen
+execute if score Installed majorainstall matches -10 run scoreboard objectives remove resumefhmusic
+execute if score Installed majorainstall matches -10 run scoreboard objectives remove moonstart
+execute if score Installed majorainstall matches -10 run scoreboard objectives remove finalhours
+##################################################################################################
+
+########################################## Zeldacraft ########################################
+execute if score Installed zeldacraft matches -10..-1 run scoreboard players remove Installed zeldacraft 1
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove molgeraspawnlarv 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove molgerahooked 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove molgerahookedimmunity 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove molgeratheme 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove molgeraintrotimer 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove molgerarandomspawn 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove tcchookshotTimer 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove tccstoneshotTimer 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove tccnethershotTimer 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove tcchookshotThrown 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove tccstoneshotThrown 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove tccnethershotThrown
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove dinused
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove nayrulovecool 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove farorewarpused 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove faroresumused
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove icearrowLife 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove firearrowLife 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove shockarrowLife 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove stasisarrowLife 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove stasisTimer 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove zeldamod_mobs 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove guardianattack 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove guardsongtimer 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove wardenwraith 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove wardenattack 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove wardensongtimer 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove dguardianattack 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove dguardsongtimer 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove redead_scream 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove fdbrcast 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove fdbbeam
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove magicarmoron 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove ritopower 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove revaligaletime 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove urbosafurytime 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove magicrupeetake 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove songtimecool 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove fiercearmoron 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove curseddeityon 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove curseddeitymagic 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove bigswordtimer 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove firerodused 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove rewaorbused
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove windreqgot 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove windgodgot 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove healsonggot 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove sariasonggot 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove plightgot 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove nshadowgot 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove earthgodgot 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove cmelodygot 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove bfiregot 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove bgalesgot 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove songtime_used
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove songtime_delay 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove songtimesong 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove ocarina_used
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove ocarina_delay 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove ocarinatime_used
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove oot_delay 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove sunsong_used
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove sunsong_delay 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove songsunsong 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove noctu_used
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove noctu_delay 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove noctusong 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove prelude_used
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove prelude_delay 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove preludesong 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove bolero_used
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove bolero_delay 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove bolerosong 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove elegy_used
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove elegy_delay 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove elegysong 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove stormsong_used
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove stormsong_delay 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove songstormsong 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove rainsong_used
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove rainsong_delay 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove songrainsong 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove clearsong_used
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove clearsong_delay 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove songclearsong 
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove rocksir_used
+execute if score Installed zeldacraft matches -10 run scoreboard objectives remove rocksir_delay 
+##################################################################################################
+
+########################################## Destiny 2 ########################################
+execute if score Installed destiny2 matches -10..-1 run scoreboard players remove Installed destiny2 1
+execute if score Installed destiny2 matches -10 run scoreboard objectives remove d2_mobs
+execute if score Installed destiny2 matches -10 run scoreboard objectives remove rivenlightning 
+execute if score Installed destiny2 matches -10 run scoreboard objectives remove rivenredead 
+execute if score Installed destiny2 matches -10 run scoreboard objectives remove rivencreeper 
+execute if score Installed destiny2 matches -10 run scoreboard objectives remove riventhralls 
+execute if score Installed destiny2 matches -10 run scoreboard objectives remove rivenphase2 
+execute if score Installed destiny2 matches -10 run scoreboard objectives remove rivenarmorstandcheck 
+execute if score Installed destiny2 matches -10 run scoreboard objectives remove rivenslain 
+execute if score Installed destiny2 matches -10 run scoreboard objectives remove aosrcast 
+execute if score Installed destiny2 matches -10 run scoreboard objectives remove aosfired2 
+execute if score Installed destiny2 matches -10 run scoreboard objectives remove aosfiredshot 
+execute if score Installed destiny2 matches -10 run scoreboard objectives remove mementomori 
+execute if score Installed destiny2 matches -10 run scoreboard objectives remove aosfired
+execute if score Installed destiny2 matches -10 run scoreboard objectives remove lwrcast 
+execute if score Installed destiny2 matches -10 run scoreboard objectives remove lwfired 
+execute if score Installed destiny2 matches -10 run scoreboard objectives remove mentomorircast 
+execute if score Installed destiny2 matches -10 run scoreboard objectives remove lamenthits 
+execute if score Installed destiny2 matches -10 run scoreboard objectives remove lamentdecay 
+##################################################################################################
+
+########################################## Drifter's Frontier ########################################
+execute if score Installed D2DFrontier matches -10..-1 run scoreboard players remove Installed D2DFrontier 1
+##################################################################################################
 
 # Mobs Spawn Scan
 execute as @e[type=drowned,tag=!not_god,sort=random] at @s run function timelesscraft:mobs/thor_spawn
@@ -5,7 +134,6 @@ execute as @e[type=zombie,tag=!not_god,sort=random] at @s run function timelessc
 execute as @e[type=husk,tag=!not_god,sort=random] at @s run function timelesscraft:mobs/thor_spawn
 execute as @e[type=horse,tag=!not_god,sort=random] at @s run function timelesscraft:mobs/thor_spawn
 execute as @e[type=villager,tag=!not_cvillager,sort=random] at @s run function timelesscraft:villagers/customvillager_spawn
-execute as @e[type=wandering_trader,tag=!not_villagexur,sort=random] at @s run function timelesscraft:villagers/xur_spawn
 
 ###### Hard Wither
 execute as @e[type=wither,nbt=!{Tags:["hardwither:1b"]}] run function timelesscraft:witherfight/withersummon
@@ -19,7 +147,6 @@ execute if score #World hardmode matches 1.. as @e[type=spider,tag=!not_hmcavesp
 execute if score #World hardmode matches 1.. as @e[type=creeper,tag=!not_hmchargecreep,sort=random] at @s run function timelesscraft:mobs/hardmode/charged_creeper
 
 ######## Complexity Armor Set
-#execute as @a[nbt={Inventory:[{Slot:103b,Count:1b,id:"minecraft:netherite_helmet",Count:1b,tag:{complexityhelm:1b}},{Slot:102b,Count:1b,id:"minecraft:netherite_chestplate",Count:1b,tag:{complexitychestplate:1b}},{Slot:101b,Count:1b,id:"minecraft:netherite_leggings",Count:1b,tag:{complexitygreaves:1b}},{Slot:100b,Count:1b,id:"minecraft:netherite_boots",Count:1b,tag:{complexityboots:1b}}]}]
 execute as @a[nbt={Inventory:[{Slot:103b,Count:1b,id:"minecraft:netherite_helmet",Count:1b,tag:{complexityhelm:1b}},{Slot:102b,Count:1b,id:"minecraft:netherite_chestplate",Count:1b,tag:{complexitychestplate:1b}},{Slot:101b,Count:1b,id:"minecraft:netherite_leggings",Count:1b,tag:{complexitygreaves:1b}},{Slot:100b,Count:1b,id:"minecraft:netherite_boots",Count:1b,tag:{complexityboots:1b}}]}] if score @s flight matches ..2 run effect give @s slow_falling 1 4 true
 execute as @a[nbt={Inventory:[{Slot:103b,Count:1b,id:"minecraft:netherite_helmet",Count:1b,tag:{complexityhelm:1b}},{Slot:102b,Count:1b,id:"minecraft:netherite_chestplate",Count:1b,tag:{complexitychestplate:1b}},{Slot:101b,Count:1b,id:"minecraft:netherite_leggings",Count:1b,tag:{complexitygreaves:1b}},{Slot:100b,Count:1b,id:"minecraft:netherite_boots",Count:1b,tag:{complexityboots:1b}}]}] if score @s flight matches ..2 run effect give @s speed 4 4 true
 execute as @a[nbt={Inventory:[{Slot:103b,Count:1b,id:"minecraft:netherite_helmet",Count:1b,tag:{complexityhelm:1b}},{Slot:102b,Count:1b,id:"minecraft:netherite_chestplate",Count:1b,tag:{complexitychestplate:1b}},{Slot:101b,Count:1b,id:"minecraft:netherite_leggings",Count:1b,tag:{complexitygreaves:1b}},{Slot:100b,Count:1b,id:"minecraft:netherite_boots",Count:1b,tag:{complexityboots:1b}}]}] if score @s flight matches ..2 run effect give @s haste 4 9 true
@@ -28,7 +155,6 @@ execute as @a[nbt={Inventory:[{Slot:103b,Count:1b,id:"minecraft:netherite_helmet
 execute as @a[nbt={Inventory:[{Slot:103b,Count:1b,id:"minecraft:netherite_helmet",Count:1b,tag:{complexityhelm:1b}},{Slot:102b,Count:1b,id:"minecraft:netherite_chestplate",Count:1b,tag:{complexitychestplate:1b}},{Slot:101b,Count:1b,id:"minecraft:netherite_leggings",Count:1b,tag:{complexitygreaves:1b}},{Slot:100b,Count:1b,id:"minecraft:netherite_boots",Count:1b,tag:{complexityboots:1b}}]}] if score @s overshieldcool matches 0 run effect give @s minecraft:regeneration 15 4
 execute as @a[nbt={Inventory:[{Slot:103b,Count:1b,id:"minecraft:netherite_helmet",Count:1b,tag:{complexityhelm:1b}},{Slot:102b,Count:1b,id:"minecraft:netherite_chestplate",Count:1b,tag:{complexitychestplate:1b}},{Slot:101b,Count:1b,id:"minecraft:netherite_leggings",Count:1b,tag:{complexitygreaves:1b}},{Slot:100b,Count:1b,id:"minecraft:netherite_boots",Count:1b,tag:{complexityboots:1b}}]}] if score @s overshieldcool matches 0 run effect give @s minecraft:saturation 2 4
 execute as @a[nbt={Inventory:[{Slot:103b,Count:1b,id:"minecraft:netherite_helmet",Count:1b,tag:{complexityhelm:1b}},{Slot:102b,Count:1b,id:"minecraft:netherite_chestplate",Count:1b,tag:{complexitychestplate:1b}},{Slot:101b,Count:1b,id:"minecraft:netherite_leggings",Count:1b,tag:{complexitygreaves:1b}},{Slot:100b,Count:1b,id:"minecraft:netherite_boots",Count:1b,tag:{complexityboots:1b}}]}] if score @s overshieldcool matches 0 run scoreboard players add @s overshieldcool 1200
-#execute as @a[nbt={Inventory:[{Slot:103b,Count:1b,id:"minecraft:netherite_helmet",Count:1b,tag:{complexityhelm:1b}},{Slot:102b,Count:1b,id:"minecraft:netherite_chestplate",Count:1b,tag:{complexitychestplate:1b}},{Slot:101b,Count:1b,id:"minecraft:netherite_leggings",Count:1b,tag:{complexitygreaves:1b}},{Slot:100b,Count:1b,id:"minecraft:netherite_boots",Count:1b,tag:{complexityboots:1b}}]}] if score @s flight matches ..2 run effect give @p regeneration 5 0 true
 execute as @a[nbt={Inventory:[{Slot:103b,Count:1b,id:"minecraft:netherite_helmet",Count:1b,tag:{complexityhelm:1b}},{Slot:102b,Count:1b,id:"minecraft:netherite_chestplate",Count:1b,tag:{complexitychestplate:1b}},{Slot:101b,Count:1b,id:"minecraft:netherite_leggings",Count:1b,tag:{complexitygreaves:1b}},{Slot:100b,Count:1b,id:"minecraft:netherite_boots",Count:1b,tag:{complexityboots:1b}}]}] if score @s flight matches 2 run effect give @s levitation 1 9 true
 execute as @a[nbt={Inventory:[{Slot:103b,Count:1b,id:"minecraft:netherite_helmet",Count:1b,tag:{complexityhelm:1b}},{Slot:102b,Count:1b,id:"minecraft:netherite_chestplate",Count:1b,tag:{complexitychestplate:1b}},{Slot:101b,Count:1b,id:"minecraft:netherite_leggings",Count:1b,tag:{complexitygreaves:1b}},{Slot:100b,Count:1b,id:"minecraft:netherite_boots",Count:1b,tag:{complexityboots:1b}}]}] if score @s flight matches 2 at @s run playsound minecraft:item.firecharge.use player @p
 execute as @a[scores={flight=2..}] run scoreboard players set @s flight 0
@@ -36,24 +162,13 @@ execute as @a[scores={flight=2..}] run scoreboard players set @s flight 0
 ####### Check Daytime
 execute store result score #timecheck timecheck run time query daytime
 
-#### Godray
-
-execute if score Deathbrine2 haha matches 1 at Deathbrine2 at @a[name=!"Deathbrine2",dx=5,dz=5,dy=2] run summon lightning_bolt
-execute if score Deathbrine2 haha matches 1 at Deathbrine2 at @a[name=!"Deathbrine2",dx=-5,dz=-5,dy=-2] run summon lightning_bolt
-
 ##### TIMBERFORGE CUSTOM CRAFTING + TIMELESS COMPLEXITY WORKSTATIONS
 
 execute as @e[type=armor_stand,tag=irontimelesscrafter] at @s unless block ~ ~ ~ dropper{CustomName:'{"text":"CUSTOM CRAFTER TIER 1"}'} run kill @s
-#execute as @e[type=armor_stand,tag=irontimelesscrafter] unless block ~ ~ ~ dropper{CustomName:'{"text":"CUSTOM CRAFTER TIER 1"}'} run kill @s
-#execute as @e[type=armor_stand,tag=irontimelesscrafter] if block ~ ~ ~ air run kill @s
 
 execute as @e[type=armor_stand,tag=diamondtimelesscrafter] at @s unless block ~ ~ ~ dropper{CustomName:'{"text":"CUSTOM CRAFTER TIER 2"}'} run kill @s
-#execute as @e[type=armor_stand,tag=diamondtimelesscrafter] unless block ~ ~ ~ dropper{CustomName:'{"text":"CUSTOM CRAFTER TIER 2"}'} run kill @s
-#execute as @e[type=armor_stand,tag=diamondtimelesscrafter] if block ~ ~ ~ air run kill @s
 
 execute as @e[type=armor_stand,tag=netheritetimelesscrafter] at @s unless block ~ ~ ~ dropper{CustomName:'{"text":"CUSTOM CRAFTER TIER 3"}'} run kill @s
-#execute as @e[type=armor_stand,tag=netheritetimelesscrafter] unless block ~ ~ ~ dropper{CustomName:'{"text":"CUSTOM CRAFTER TIER 3"}'} run kill @s
-#execute as @e[type=armor_stand,tag=netheritetimelesscrafter] if block ~ ~ ~ air run kill @s
 
 execute as @e[type=armor_stand,tag=irontimelesscrafter] run scoreboard players add @s ticomsmelter 0
 execute as @e[tag=irontimelesscrafter] at @s run function timelesscraft:furnace/ironsmelting
@@ -122,70 +237,17 @@ execute as @a at @s if score @s postriven matches 1 run scoreboard players add @
 execute if score #HardRestart HRESETTIMER matches 1.. run scoreboard players remove #HardRestart HRESETTIMER 1
 execute if score #HardRestart HRESETTIMER matches 2..3 run scoreboard players reset #HardRestart CONFIRMRESET 
 
-####################
-#execute as @e[limit=1,nbt={Tags:["songwarp:1b"]}] run data modify entity @s UUID
-
-#teleport @p @e[limit=1,nbt={Tags:["songwarp:1b"]}]
-
-#execute as @a[scores={spellbooktest=1}] at @s run locate structure mansion
-#xecute as @a[scores={spellbooktest=1}] at @s run scoreboard players add @s spellbooktest 1
-#execute as @a[scores={spellbooktest=2..}] at @s run scoreboard players reset @s spellbooktest
-
-###### RayCast Testing
-#execute as @a[scores={rctitem=1},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{rctestitem:1b}}}] at @s run function timelesscraft:raycasttimeless/timestartraycast
-#execute as @a[scores={rctitem=1},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{rctestitem:1b}}}] at @s run playsound minecraft:item.firecharge.use player @s
-##anchored eyes run summon snowball ^ ^1 ^ {Motion:[1.0,0.0,0.0],Tags:["repulsorblast"],Item:{id:"minecraft:nether_star",Count:1b}}
-##execute as @e[nbt={Tags:["repulsorblast"]}] at @s run function timelesscraft:raycasttimeless/timestartraycast
-#execute as @a[scores={rctitem=1}] run scoreboard players add @s rctitem 1
-#execute as @a[scores={rctitem=2..}] run scoreboard players set @s rctitem 0
-
-###### Destiny 2 Healthbar
-#execute as @a run execute store result score @s healthbar run data get entity @s Health
-#
-#execute as @a at @s run bossbar add destiny2:healthbar "Health Bar"
-#execute as @a at @s if score @s healthbar matches ..20 run bossbar set destiny2:healthbar color white
-#execute as @a at @s if score @s healthbar matches ..20 run bossbar set destiny2:healthbar max 20
-#execute as @a at @s if score @s healthbar matches 21..75 run bossbar set destiny2:healthbar color blue
-#execute as @a at @s if score @s healthbar matches 21..75 run bossbar set destiny2:healthbar max 75
-#execute as @a at @s if score @s healthbar matches 76..150 run bossbar set destiny2:healthbar color red
-#execute as @a at @s if score @s healthbar matches 76..150 run bossbar set destiny2:healthbar max 150
-#execute as @a at @s if score @s healthbar matches 151..300 run bossbar set destiny2:healthbar color yellow
-#execute as @a at @s if score @s healthbar matches 151..300 run bossbar set destiny2:healthbar max 300
-#execute as @a at @s run bossbar set destiny2:healthbar players @s
-#execute as @a at @s run bossbar set destiny2:healthbar style progress
-#execute as @a store result bossbar destiny2:healthbar value run scoreboard players get @s healthbar
-
-###### Destiny 2 Healthbar
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] run execute store result score @s d2healthbar run data get entity @s Health
-#
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if entity @p[distance=..25] run bossbar add destiny2:mobhealthbar "Sea Thor, Scourage of the Skies and Seas"
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if score @s d2healthbar matches ..50 run bossbar set destiny2:mobhealthbar color white
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if score @s d2healthbar matches ..50 run bossbar set destiny2:mobhealthbar max 50
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if score @s d2healthbar matches 51..150 run bossbar set destiny2:mobhealthbar color blue
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if score @s d2healthbar matches 51..150 run bossbar set destiny2:mobhealthbar max 150
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if score @s d2healthbar matches 151..450 run bossbar set destiny2:mobhealthbar color red
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if score @s d2healthbar matches 151..450 run bossbar set destiny2:mobhealthbar max 450
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if score @s d2healthbar matches 451..1000 run bossbar set destiny2:mobhealthbar color yellow
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if score @s d2healthbar matches 451..1000 run bossbar set destiny2:mobhealthbar max 1000
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s run bossbar set destiny2:mobhealthbar players @p
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if entity @p[distance=26..] run bossbar remove destiny2:mobhealthbar
-##execute as @e[nbt={Tags:["godthor:1b"]}] at @s if score @s d2healthbar matches ..1 run bossbar remove destiny2:mobhealthbar
-#execute as @a at @s if entity @e[nbt=!{Tags:["godthor:1b"]},distance=..25]
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s run bossbar set destiny2:mobhealthbar style progress
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] store result bossbar destiny2:mobhealthbar value run scoreboard players get @s d2healthbar
-
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] run execute store result score @s d2healthbar run data get entity @s Health
-#
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if entity @p[distance=..25] run bossbar add destiny2:mobhealthbar "Enemy Health"
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if score @s d2healthbar matches ..50 run bossbar set destiny2:mobhealthbar color white
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if score @s d2healthbar matches ..50 run bossbar set destiny2:mobhealthbar max 50
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if score @s d2healthbar matches 51..150 run bossbar set destiny2:mobhealthbar color blue
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if score @s d2healthbar matches 51..150 run bossbar set destiny2:mobhealthbar max 150
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if score @s d2healthbar matches 151..450 run bossbar set destiny2:mobhealthbar color red
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if score @s d2healthbar matches 151..450 run bossbar set destiny2:mobhealthbar max 450
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if score @s d2healthbar matches 451..1000 run bossbar set destiny2:mobhealthbar color yellow
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if score @s d2healthbar matches 451..1000 run bossbar set destiny2:mobhealthbar max 1000
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s run bossbar set destiny2:mobhealthbar players @p
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s if entity @p[distance=26..] run bossbar remove destiny2:mobhealthbar
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] at @s run bossbar set destiny2:mobhealthbar style progress
-#execute as @e[type=!player,nbt={Tags:["godthor:1b"]}] store result bossbar destiny2:mobhealthbar value run scoreboard players get @s d2healthbar
+##### Rewind Core Power
+execute as @a[nbt={Inventory:[{Slot:-106b,Count:1b,id:"minecraft:totem_of_undying"}]}] at @s run scoreboard players reset @s rcoreused
+execute as @a[nbt={Inventory:[{Slot:-106b,Count:1b,id:"minecraft:totem_of_undying"}]}] at @s run scoreboard players reset @s rcore2used
+execute as @a[nbt={Inventory:[{Slot:-106b,Count:1b,id:"minecraft:totem_of_undying"}]}] at @s run scoreboard players reset @s rcore3used
+execute as @a[nbt={Inventory:[{Slot:-106b,Count:1b,id:"minecraft:totem_of_undying"}]}] at @s run scoreboard players reset @s rcore4used
+execute as @a if score @s rcoretimer matches 1.. run scoreboard players remove @s rcoretimer 1
+execute as @a if score @s rcore2timer matches 1.. run scoreboard players remove @s rcore2timer 1
+execute as @a if score @s rcore3timer matches 1.. run scoreboard players remove @s rcore3timer 1
+execute as @a if score @s rcore4timer matches 1.. run scoreboard players remove @s rcore4timer 1
+execute as @a[nbt={Inventory:[{Slot:-106b,Count:1b,id:"minecraft:totem_of_undying",tag:{rewindcore:1b}}]}] at @s run scoreboard players set @s rcoretimer 2
+execute as @a[nbt={Inventory:[{Slot:-106b,Count:1b,id:"minecraft:totem_of_undying",tag:{rewindcore2:1b}}]}] at @s run scoreboard players set @s rcore2timer 2
+execute as @a[nbt={Inventory:[{Slot:-106b,Count:1b,id:"minecraft:totem_of_undying",tag:{rewindcore3:1b}}]}] at @s run scoreboard players set @s rcore3timer 2
+execute as @a[nbt={Inventory:[{Slot:-106b,Count:1b,id:"minecraft:totem_of_undying",tag:{rewindcore4:1b}}]}] at @s run scoreboard players set @s rcore4timer 2
+execute as @a[nbt=!{Inventory:[{Slot:-106b,Count:1b,id:"minecraft:totem_of_undying"}]}] at @s run function timelesscraft:itempowers/rewindcorerevive

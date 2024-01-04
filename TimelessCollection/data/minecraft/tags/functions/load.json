@@ -1,9 +1,7 @@
 {
     "values": [
-        "#zeldacraft:zeldadlc/load",
         "#expandedvanilla:expandvan/load",
         "#timelesscraft:main/load",
-        "#destiny2:main/load",
         "#miscraft:main/load",
         "#cryorg:blackice/load"
     ]

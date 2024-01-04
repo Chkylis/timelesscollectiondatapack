@@ -1,4 +1,0 @@
-#### Give Legacy Reality Shard
-
-## :)
-execute at @s run give @s minecraft:diamond{display:{Name:'{"text":"Reality Shard","color":"#665D5D","obfuscated":true}',Lore:['{"text":"\\"Forged in Hero\'s Might\\"","color":"#A6E7FF"}','{"text":"\\"Only those with truesight will known the truth.\\"","color":"dark_red","obfuscated":true}','{"text":"\\"This items serves a dark purpose.\\"","color":"dark_red","obfuscated":true}','{"text":"\\"This is proof enough, entities such as his can exist,","color":"red"}','{"text":"even when born of Darkness\\"","color":"red","bold":true,"italic":true}']},HideFlags:7,realityshard1:1b,Enchantments:[{id:"minecraft:infinity",lvl:1s}]} 1

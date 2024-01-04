@@ -2,10 +2,6 @@
 #### Mob scan
 execute as @e[type=zombie,tag=!not_energized,sort=random] at @s run function miscraft:mobs/energy_zombie_spawn
 
-##### energy enhancement
-#execute as @e[type=item,nbt={Item:{tag:{mob_death_marker:1b}}}] run scoreboard players add @p energy 10
-#kill @e[type=item,nbt={Item:{tag:{mob_death_marker:1b}}}]
-
 #### Energy Apple
 
 ########## Energized Gapple
@@ -294,8 +290,6 @@ execute as @a[nbt=!{Inventory:[{Slot:103b,Count:1b,id:"minecraft:diamond_helmet"
 ###### RayCast
 execute as @a[scores={mkvrblast=1},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{markvrepulsor:1b}}}] at @s run function miscraft:itempowers/markv/markvraycaststart
 execute as @a[scores={mkvrblast=1},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{markvrepulsor:1b}}}] at @s run playsound minecraft:item.firecharge.use player @s
-#anchored eyes run summon snowball ^ ^1 ^ {Motion:[1.0,0.0,0.0],Tags:["repulsorblast"],Item:{id:"minecraft:nether_star",Count:1b}}
-#execute as @e[nbt={Tags:["repulsorblast"]}] at @s run function timelesscraft:raycasttimeless/timestartraycast
 execute as @a[scores={mkvrblast=1},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{markvrepulsor:1b}}}] at @s run scoreboard players remove @s energy 25
 execute as @a[scores={mkvrblast=1},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{markvrepulsor:1b}}}] run scoreboard players add @s mkvrblast 1
 execute as @a[scores={mkvrblast=2..}] run scoreboard players set @s mkvrblast 0
@@ -329,18 +323,6 @@ execute as @a[nbt=!{SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{markvfir
 ################################################################
 
 ########### Volt Set
-
-###### Get Weapons
-#execute as @a[nbt=!{Inventory:[{Slot:103b,Count:1b,id:"minecraft:diamond_helmet",Count:1b,tag:{markvhelmet:1b}},{Slot:102b,Count:1b,id:"minecraft:diamond_chestplate",Count:1b,tag:{markvchestplate:1b}},{Slot:101b,Count:1b,id:"minecraft:diamond_leggings",Count:1b,tag:{markvleggings:1b}},{Slot:100b,Count:1b,id:"minecraft:diamond_boots",Count:1b,tag:{markvboots:1b}}]}] run scoreboard players set @s mkvsuiton 0
-#execute as @a[nbt={Inventory:[{Slot:103b,Count:1b,id:"minecraft:diamond_helmet",Count:1b,tag:{markvhelmet:1b}},{Slot:102b,Count:1b,id:"minecraft:diamond_chestplate",Count:1b,tag:{markvchestplate:1b}},{Slot:101b,Count:1b,id:"minecraft:diamond_leggings",Count:1b,tag:{markvleggings:1b}},{Slot:100b,Count:1b,id:"minecraft:diamond_boots",Count:1b,tag:{markvboots:1b}}]}] if score @s mkvsuiton matches 0 run scoreboard players set @s mkvsuiton 1
-#execute as @a[nbt={Inventory:[{Slot:103b,Count:1b,id:"minecraft:diamond_helmet",Count:1b,tag:{markvhelmet:1b}},{Slot:102b,Count:1b,id:"minecraft:diamond_chestplate",Count:1b,tag:{markvchestplate:1b}},{Slot:101b,Count:1b,id:"minecraft:diamond_leggings",Count:1b,tag:{markvleggings:1b}},{Slot:100b,Count:1b,id:"minecraft:diamond_boots",Count:1b,tag:{markvboots:1b}}]}] if score @s mkvsuiton matches 1 run function miscraft:itempowers/markv/markvweapons
-#execute as @a[nbt={Inventory:[{Slot:103b,Count:1b,id:"minecraft:diamond_helmet",Count:1b,tag:{markvhelmet:1b}},{Slot:102b,Count:1b,id:"minecraft:diamond_chestplate",Count:1b,tag:{markvchestplate:1b}},{Slot:101b,Count:1b,id:"minecraft:diamond_leggings",Count:1b,tag:{markvleggings:1b}},{Slot:100b,Count:1b,id:"minecraft:diamond_boots",Count:1b,tag:{markvboots:1b}}]}] if score @s mkvsuiton matches 1 run scoreboard players set @s mkvsuiton 2
-
-###### Remove Weapons
-#execute as @a[nbt=!{Inventory:[{Slot:103b,Count:1b,id:"minecraft:diamond_helmet",Count:1b,tag:{markvhelmet:1b}},{Slot:102b,Count:1b,id:"minecraft:diamond_chestplate",Count:1b,tag:{markvchestplate:1b}},{Slot:101b,Count:1b,id:"minecraft:diamond_leggings",Count:1b,tag:{markvleggings:1b}},{Slot:100b,Count:1b,id:"minecraft:diamond_boots",Count:1b,tag:{markvboots:1b}}]}] at @s run clear @s carrot_on_a_stick{display:{Name:'{"text":"Mark V Repulsor","color":"red"}',Lore:['{"text":"Right Click to fire a Repulsor Blast.","color":"yellow"}','{"text":"It does not explode upon contact with","color":"red"}','{"text":"blocks, cosmetic entities (I.E. Item Frame), ","color":"red"}','{"text":"or fluids, however it can penetrate","color":"red"}','{"text":"fluids and transparent blocks to reach","color":"red"}','{"text":"its target.","color":"red"}','{"text":"Consumes 25 energy.","color":"aqua"}']},HideFlags:1,RepairCost:9999999,Unbreakable:1b,markvrepulsor:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:100s}]}
-#execute as @a[nbt=!{Inventory:[{Slot:103b,Count:1b,id:"minecraft:diamond_helmet",Count:1b,tag:{markvhelmet:1b}},{Slot:102b,Count:1b,id:"minecraft:diamond_chestplate",Count:1b,tag:{markvchestplate:1b}},{Slot:101b,Count:1b,id:"minecraft:diamond_leggings",Count:1b,tag:{markvleggings:1b}},{Slot:100b,Count:1b,id:"minecraft:diamond_boots",Count:1b,tag:{markvboots:1b}}]}] at @s run clear @s carrot_on_a_stick{display:{Name:'{"text":"Mark V Unibeam","color":"red"}',Lore:['{"text":"Right Click to fire a Unibeam Blast.","color":"aqua"}','{"text":"The blast has a massive area of effect","color":"red"}','{"text":"upon hitting a mob.","color":"red"}','{"text":"It also strikes the target with lightning.","color":"red"}','{"text":"!!!CONSUMES ALL ENERGY UPON USE!!!","color":"yellow"}','{"text":"\\"It was a one off.\\"","color":"light_purple"}']},HideFlags:1,RepairCost:9999999,markvunibeam:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:100s}]}
-#execute as @a[nbt=!{Inventory:[{Slot:103b,Count:1b,id:"minecraft:diamond_helmet",Count:1b,tag:{markvhelmet:1b}},{Slot:102b,Count:1b,id:"minecraft:diamond_chestplate",Count:1b,tag:{markvchestplate:1b}},{Slot:101b,Count:1b,id:"minecraft:diamond_leggings",Count:1b,tag:{markvleggings:1b}},{Slot:100b,Count:1b,id:"minecraft:diamond_boots",Count:1b,tag:{markvboots:1b}}]}] at @s run clear @s carrot_on_a_stick{display:{Name:'{"text":"Mark V Pulse Boost","color":"red"}',Lore:['{"text":"Right Click to gain a temporary speed boost.","color":"yellow"}','{"text":"Consumes 15 energy.","color":"aqua"}']},HideFlags:1,RepairCost:9999999,Unbreakable:1b,markvpulseboost:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:100s}]} 1
-
 ## Shock
 ###### RayCast
 msg @p[scores={energy=..14,voltshock=1},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{voltpowshock:1b}}}] Not enough energy! Shock requires at least 15 Energy!
@@ -370,7 +352,6 @@ execute as @a[scores={voltdischarge=1,energy=250..},nbt={SelectedItem:{id:"minec
 execute as @a[scores={voltdischarge=1,energy=250..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{voltpowdischarge:1b}}}] at @s at @e[type=!item,type=!lightning_bolt,type=!player,type=!villager,type=!cat,type=!wolf,type=!item_frame,type=!armor_stand,distance=..15] run summon lightning_bolt
 execute as @a[scores={voltdischarge=1,energy=250..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{voltpowdischarge:1b}}}] at @s at @e[type=!item,type=!lightning_bolt,type=!player,type=!villager,type=!cat,type=!wolf,type=!item_frame,type=!armor_stand,distance=..15] run summon lightning_bolt
 execute as @a[scores={voltdischarge=1,energy=250..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{voltpowdischarge:1b}}}] at @s run effect give @e[type=!item,type=!lightning_bolt,type=!player,type=!villager,type=!cat,type=!wolf,type=!item_frame,type=!armor_stand,distance=..15] slowness 8 10
-#execute as @a[scores={voltdischarge=1},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{voltpowdischarge:1b}}}] at @s run playsound minecraft:item.firecharge.use player @s
 execute as @a[scores={voltdischarge=1,energy=250..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{voltpowdischarge:1b}}}] at @s run scoreboard players remove @s energy 250
 execute as @a[scores={voltdischarge=1},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{voltpowdischarge:1b}}}] run scoreboard players add @s voltdischarge 1
 execute as @a[scores={voltdischarge=2..}] run scoreboard players set @s voltdischarge 0
@@ -437,8 +418,6 @@ execute as @a[nbt=!{SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{nanomach
 ############## Mending Mage Testing
 #### Add all cooldowns
 scoreboard players add @a overshieldcool 0
-#scoreboard players add @a curewoundCooldown 0
-#scoreboard players add @a strengthspellCooldown 0
 
 ##### Cure Wound
 scoreboard players remove @a[scores={curewoundCooldown=1..}] curewoundCooldown 1
@@ -521,7 +500,6 @@ execute as @a at @s run scoreboard players enable @s manaGet
 
 tellraw @p[scores={manaGet=1..}] ["",{"text":"You have "},{"score":{"name":"*","objective":"mana"}},{"text":" mana out of "},{"score":{"name":"*","objective":"manaMAX"}}]
 
-#execute as @a[scores={manaGet=1..}] at @s run scoreboard players get @s mana
 execute as @a[scores={manaGet=1..}] at @s run scoreboard players reset @s manaGet
 
 
@@ -544,13 +522,11 @@ execute as @a[scores={KILLVIL=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_
 
 scoreboard players reset @a[nbt=!{SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{genosplicer:1b}}}] KILLVIL
 scoreboard players reset @a[scores={KILLVIL=1..}] KILLVIL
-#execute if score villager_count time_mobs matches 9999.. run scoreboard players set villager_count time_mobs 9999
-#execute if score villager_count time_mobs matches 9999.. run scoreboard players set trader_count time_mobs 9999
 
+######### The End
+execute at @a[predicate=timelesscraft:theend] run playsound minecraft:entity.ender_dragon.growl master @s ~ ~ ~ 1 1 1
+execute at @a[predicate=timelesscraft:theend] if score #World GENODONE matches 1.. run say I have seen your slaughter, Spawn Killer. You shall not enter my domain as long as this world persists. 
+execute at @a[predicate=timelesscraft:theend] if score #World GENODONE matches 1.. run say Should you have not been the one to commit the slaughter, even so, punished, shall you all be, for the actions of your brethren.
+execute as @a[predicate=timelesscraft:theend] at @s if score #World GENODONE matches 1.. in overworld run tp @s 0 80 0
 #################################################################
-#scoreboard players add @a energyreserveMAX 0
-#execute as @a if score @s energyreserveMAX matches 0 run scoreboard players set @s energyreserveMAX 1000
-#execute as @a if score @s energyreserve > @s energyreserveMAX run scoreboard players operation @s energyreserve = @s energyreserveMAX
 
-#execute as @a[scores={energy=2000..}] at @s run scoreboard players add @s energyreserve 1
-#execute as @a[scores={energy=..0,energyreserve=1..}] at @s run function miscraft:energysystem/reserverefill

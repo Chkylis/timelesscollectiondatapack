@@ -12,4 +12,4 @@ advancement revoke @a only miscraft:undertale/loveincrease
 advancement revoke @a only miscraft:undertale/villagers/charakill
 
 scoreboard players set villager_count time_mobs 0
-scoreboard players set trader_count time_mobs 0
+scoreboard players set trader_count d2_mobs 0

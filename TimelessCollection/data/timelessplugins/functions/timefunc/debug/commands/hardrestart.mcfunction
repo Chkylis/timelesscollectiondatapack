@@ -49,7 +49,7 @@ execute if score #HardRestart CONFIRMRESET matches 1.. run advancement revoke @a
 execute if score #HardRestart CONFIRMRESET matches 1.. run advancement revoke @a only miscraft:undertale/villagers/charakill
 
 execute if score #HardRestart CONFIRMRESET matches 1.. run scoreboard players set villager_count time_mobs 0
-execute if score #HardRestart CONFIRMRESET matches 1.. run scoreboard players set trader_count time_mobs 0
+execute if score #HardRestart CONFIRMRESET matches 1.. run scoreboard players set trader_count d2_mobs 0
 
 ########## Remove Hardmode
 execute if score #HardRestart CONFIRMRESET matches 1.. run scoreboard players reset @e molgerarandomspawn

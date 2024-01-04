@@ -46,7 +46,6 @@ scoreboard objectives add kromeringgen dummy
 scoreboard objectives add spamkromertake dummy
 
 #### Mobs Spawn ####
-scoreboard players add ug_count miscraft_mobs 0
 scoreboard players add energy_zombie_count miscraft_mobs 0
 
 #### Energy Apple
@@ -157,5 +156,4 @@ scoreboard objectives add GENODONE dummy
 
 scoreboard objectives add getEXP minecraft.used:carrot_on_a_stick
 scoreboard objectives add KILLVIL minecraft.used:carrot_on_a_stick
-#scoreboard objectives add spellbooktest trigger
 

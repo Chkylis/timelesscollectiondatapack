@@ -6,11 +6,6 @@ say TimelessCraft Loaded!
 
 ###
 
-######### Raycast
-
-#scoreboard objectives add timeless_rcast dummy
-#scoreboard objectives add rctitem minecraft.used:minecraft.carrot_on_a_stick
-
 ##########################
 scoreboard objectives add touchgrass dummy
 
@@ -44,17 +39,6 @@ scoreboard objectives add witherthralls dummy
 #### Custom Villagers
 scoreboard players add villager_count time_mobs 0
 
-#### CUSTOM CRAFTING TEST #######
-
-#scoreboard players add ccraft_check dummy 0
-#scoreboard players set ccraft_check ccraftscore 1000
-#scoreboard players reset @a ccraftscore
-#scoreboard objectives add ccraftscore dummy
-#scoreboard objectives add ccraftdone dummy
-
-scoreboard objectives add haha dummy
-#scoreboard objectives setdisplay sidebar ccraftscore
-
 ########## Custom Smelting
 scoreboard objectives add ticomsmelter dummy
 scoreboard objectives add ticomsmeltitem dummy
@@ -77,6 +61,37 @@ scoreboard objectives add molgera2disc dummy
 scoreboard objectives add jukeboxkill minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add jukeboxsummon minecraft.used:minecraft.carrot_on_a_stick
 
+#### add Nighttime scoreboard
+scoreboard objectives add timecheck dummy
+
 ## Destiny 2 Healthbar
-#scoreboard objectives add healthbar dummy
 scoreboard objectives add d2healthbar dummy
+scoreboard objectives add mobHealth dummy
+
+## Rewind Core Item
+scoreboard objectives add rcoreused minecraft.used:totem_of_undying
+scoreboard objectives add rcore2used minecraft.used:totem_of_undying
+scoreboard objectives add rcore3used minecraft.used:totem_of_undying
+scoreboard objectives add rcore4used minecraft.used:totem_of_undying
+scoreboard objectives add rcoretimer dummy
+scoreboard objectives add rcore2timer dummy
+scoreboard objectives add rcore3timer dummy
+scoreboard objectives add rcore4timer dummy
+
+#### Are Expansions installed? ####
+
+### Zeldacraft
+scoreboard objectives add zeldacraft dummy
+scoreboard players set Installed zeldacraft -1
+
+### Destiny 2
+scoreboard objectives add destiny2 dummy
+scoreboard players set Installed destiny2 -1
+
+### Drifter's Frontier
+scoreboard objectives add D2DFrontier dummy
+scoreboard players set Installed D2DFrontier -1
+
+### Majora's Mask
+scoreboard objectives add majorainstall dummy
+scoreboard players set Installed majorainstall -1

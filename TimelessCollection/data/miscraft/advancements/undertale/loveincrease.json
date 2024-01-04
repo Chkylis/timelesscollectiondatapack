@@ -188,6 +188,27 @@
                         }
                     }
             }
+        },
+        "enderman": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:enderman"
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_axe"
+                                ],
+                                "nbt": "{carnage:1b}"
+                                }
+                            }
+                        }
+                    }
+            }
         }
     },
     "requirements": [
@@ -200,7 +221,8 @@
             "vindicator",
             "pillager",
             "piglin_brute",
-            "trader"
+            "trader",
+            "enderman"
         ]
     ],
     "rewards": {
