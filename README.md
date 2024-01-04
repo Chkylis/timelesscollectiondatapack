@@ -27,7 +27,7 @@ There are textures included in this pack not belonging to me, and I shall credit
 
 ==================================================Timeless Textures===========================================
 
-Timeless Complexity and its respective content are creations of Chklyis, and are not to be used without his permission.
+Timeless Complexity and its respective content are creations of Chkylis, and are not to be used without his permission.
 
 Not all content in this pack is original, however all models and textures are, the original owners of said content are as follows:
 
